@@ -1,0 +1,108 @@
+name: Expert TG Channel Autopilot
+
+on:
+  schedule:
+    # 06:00 UTC is 09:00 AM MSK (UTC+3)
+    - cron: '0 6 * * *'
+    # 09:00 UTC is 12:00 PM MSK (UTC+3)
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    inputs:
+      action_type:
+        description: 'Action to run: propose_topics, draft_articles, or publish_article'
+        required: true
+        default: 'propose_topics'
+        type: choice
+        options:
+          - propose_topics
+          - draft_articles
+          - publish_article
+      post_id:
+        description: 'Post ID to publish (only needed for publish_article)'
+        required: false
+        default: ''
+        type: string
+
+# Grant write permission to allow committing database.json back to the repository
+permissions:
+  contents: write
+
+jobs:
+  run-autopilot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch all history so push doesn't fail
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Determine which script to run based on cron schedule or manual input
+      # Cron '0 6 * * *' maps to Propose Topics (09:00 AM MSK)
+      # Cron '0 9 * * *' maps to Draft Articles (12:00 PM MSK)
+      - name: Execute Autopilot Script
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+          POST_ID: ${{ github.event.inputs.post_id }}
+        run: |
+          TRIGGER_EVENT="${{ github.event_name }}"
+          ACTION_TYPE="${{ github.event.inputs.action_type }}"
+          CRON_SCHEDULE="${{ github.event.schedule }}"
+
+          echo "Trigger event: $TRIGGER_EVENT"
+
+          if [ "$TRIGGER_EVENT" = "schedule" ]; then
+            if [ "$CRON_SCHEDULE" = "0 6 * * *" ]; then
+              echo "Executing: Daily Topic Proposals"
+              node scripts/propose-topics.js
+            elif [ "$CRON_SCHEDULE" = "0 9 * * *" ]; then
+              echo "Executing: Daily Article Drafting"
+              node scripts/draft-articles.js
+            else
+              echo "Unknown cron trigger schedule: $CRON_SCHEDULE"
+              exit 1
+            fi
+          elif [ "$TRIGGER_EVENT" = "workflow_dispatch" ]; then
+            echo "Executing manual dispatch action: $ACTION_TYPE"
+            if [ "$ACTION_TYPE" = "propose_topics" ]; then
+              node scripts/propose-topics.js
+            elif [ "$ACTION_TYPE" = "draft_articles" ]; then
+              node scripts/draft-articles.js
+            elif [ "$ACTION_TYPE" = "publish_article" ]; then
+              node scripts/publish-article.js
+            else
+              echo "Unknown manual action: $ACTION_TYPE"
+              exit 1
+            fi
+          else
+            echo "Direct or pull_request trigger, defaulting to propose-topics dry-run"
+            node scripts/propose-topics.js
+          fi
+
+      # Commit and push database.json back to GitHub if it changed
+      - name: Commit and Push Database Updates
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add database.json
+          
+          # Only commit and push if there are modifications in database.json
+          if ! git diff --cached --quiet; then
+            echo "Changes detected in database.json, committing..."
+            git commit -m "Auto-update database.json [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "No database changes to commit."
+          fi

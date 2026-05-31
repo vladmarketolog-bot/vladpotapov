@@ -1,0 +1,19 @@
+{
+  "name": "expert-tg-channel-automator",
+  "version": "1.0.0",
+  "description": "Automated Telegram Channel Post Generator and Scheduler using Gemini and a Premium Web Dashboard",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "propose": "node scripts/propose-topics.js",
+    "draft": "node scripts/draft-articles.js",
+    "publish": "node scripts/publish-article.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.11.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "telegraf": "^4.16.3"
+  }
+}
