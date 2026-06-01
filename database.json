@@ -1178,6 +1178,18 @@
       "source": "CLI-Drafting",
       "message": "Successfully auto-drafted and notified admin of 2 draft(s)",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-06-01T14:57:12.046Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-06-01T14:57:12.047Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
