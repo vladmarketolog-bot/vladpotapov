@@ -1236,18 +1236,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-05-31T19:50:59.973Z",
-      "source": "Scheduler",
-      "message": "Scheduler service started (1-minute queue check, 1-hour auto-schedule check)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:00.872Z",
-      "source": "System",
-      "message": "Server started successfully on port 3000",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-05-31T19:52:00.875Z",
       "source": "Telegram",
       "message": "Initializing Telegram bot service...",
@@ -4234,6 +4222,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-01T11:57:26.108Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-01T11:57:26.111Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
