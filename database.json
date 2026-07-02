@@ -1142,6 +1142,46 @@
       "description": "Владение и контроль над ИИ-инфраструктурой и моделями выходит за рамки корпоративных преимуществ, становясь критически важным геополитическим фактором. Статья раскроет, как суверенный R&D контур и локальные SLM влияют на национальную безопасность, формируют новые торговые блоки и альянсы, и переопределяют правила кибербезопасности. Мы предложим CEO и CTO фреймворк для оценки геополитических рисков и возможностей, связанных с их AI-стратегией.",
       "status": "pending",
       "used": false
+    },
+    {
+      "id": "topic_1782982498742",
+      "block": "Макроэкономика ИИ и управление капиталом",
+      "title": "Governance-Driven M&A: Как этический ИИ и прозрачность алгоритмов становятся ключевым активом в сделках по слияниям и поглощениям",
+      "description": "Раскроем, почему инвесторы ищут не только AI-IP, но и зрелые фреймворки ИИ-Governance. Покажем, как аудируемые этические протоколы и прозрачность алгоритмов снижают риски интеграции, ускоряют due diligence и увеличивают мультипликаторы компании в сделках M&A, превращая комплаенс в конкурентное преимущество. Предложим чек-лист для оценки AI-готовности компании к слияниям.",
+      "status": "pending",
+      "used": false
+    },
+    {
+      "id": "topic_1782982499269",
+      "block": "Generative Engine Optimization",
+      "title": "Тренеры для ИИ-Гигантов: Как бренды переходят от пассивной оптимизации к активному формированию знаний в Generative Search",
+      "description": "Разберем, как компании могут и должны выходить за рамки традиционного GEO, становясь активными участниками в обучении и валидации информации для ИИ-поисковиков, таких как Perplexity и ChatGPT Search. Объясним, почему стратегическое взаимодействие с алгоритмами, предоставление структурированных данных и участие в программах верификации становятся ключом к созданию неискаженной и авторитетной цифровой репрезентации бренда, обеспечивающей доминирование в \"нулевом клике\". Предложим roadmap для \"активного контент-тренинга\" ИИ.",
+      "status": "pending",
+      "used": false
+    },
+    {
+      "id": "topic_1782982499455",
+      "block": "Эволюция CRM",
+      "title": "Инженерия LTV: Как AI-агенты переходят от прогнозирования к активному формированию и максимизации пожизненной ценности клиента",
+      "description": "Рассмотрим, как автономные ИИ-агенты трансформируют стратегию управления LTV, выходя за рамки простого прогнозирования оттока. Разберем кейсы, где ИИ проактивно выявляет потенциал роста ценности каждого клиента, персонализирует предложения, управляет взаимоотношениями и создает сценарии, направленные на долгосрочное увеличение прибыли. Предложим метрики и фреймворки для измерения ROI от ИИ-инженерного подхода к LTV, превращая каждое взаимодействие в инвестицию.",
+      "status": "pending",
+      "used": false
+    },
+    {
+      "id": "topic_1782982499676",
+      "block": "Инфраструктурный суверенитет",
+      "title": "Интеллектуальная Цепочка Поставок: Как суверенный R&D контур страхует бизнес от глобальных ИИ-шоков и вендор-лока",
+      "description": "Разберем, как построение собственного защищенного R&D контура для разработки и развертывания SLM становится критически важным элементом управления рисками. Покажем, как суверенитет в ИИ позволяет компаниям минимизировать зависимость от внешних поставщиков, защититься от геополитических рисков, санкций и сбоев в цепочках поставок вычислительных ресурсов и моделей, обеспечивая непрерывность инноваций и стратегическую гибкость. Предложим архитектурные принципы для создания отказоустойчивой \"интеллектуальной цепи поставок\".",
+      "status": "pending",
+      "used": false
+    },
+    {
+      "id": "topic_1782982499913",
+      "block": "Макроэкономика ИИ и управление капиталом",
+      "title": "Невидимая Маржа: Как Agentic AI переписывает экономику цепи создания стоимости и требует новой финансовой стратегии",
+      "description": "Разберем, как автономные ИИ-агенты, оптимизирующие каждый этап бизнес-процессов, не только снижают издержки, но и неявно перераспределяют прибыль между участниками рынка. Объясним, почему традиционные подходы к ценообразованию, учету затрат и оценке маржинальности становятся неактуальными, и как CFO должны переосмыслить всю экономику компании, чтобы капитализировать \"невидимую маржу\", создаваемую ИИ, и не потерять долю рынка. Предложим фреймворк для аудита и капитализации \"AI-driven value chain\".",
+      "status": "pending",
+      "used": false
     }
   ],
   "posts": [
@@ -1235,84 +1275,6 @@
     }
   ],
   "logs": [
-    {
-      "timestamp": "2026-05-31T19:52:00.875Z",
-      "source": "Telegram",
-      "message": "Initializing Telegram bot service...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:00.879Z",
-      "source": "Telegram",
-      "message": "Bot handlers configured. Launching polling...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:00.884Z",
-      "source": "Scheduler",
-      "message": "Initializing scheduler service...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:00.892Z",
-      "source": "Scheduler",
-      "message": "Scheduler service started (1-minute queue check, 1-hour auto-schedule check)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:12.755Z",
-      "source": "Gemini",
-      "message": "Initializing generation for: \"Кризис «Token Maxing»: Почему крупный бизнес сжигает годовые AI-бюджеты за три месяца и как остановить утечку маржи\" using gemini-1.5-pro",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:13.584Z",
-      "source": "Gemini",
-      "message": "Generation error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent: [404 Not Found] models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
-      "level": "error"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:32.876Z",
-      "source": "System",
-      "message": "Server started successfully on port 3000",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:32.879Z",
-      "source": "Telegram",
-      "message": "Initializing Telegram bot service...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:32.883Z",
-      "source": "Telegram",
-      "message": "Bot handlers configured. Launching polling...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:32.886Z",
-      "source": "Scheduler",
-      "message": "Initializing scheduler service...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:32.890Z",
-      "source": "Scheduler",
-      "message": "Scheduler service started (1-minute queue check, 1-hour auto-schedule check)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:43.668Z",
-      "source": "Gemini",
-      "message": "Initializing generation for: \"Кризис «Token Maxing»: Почему крупный бизнес сжигает годовые AI-бюджеты за три месяца и как остановить утечку маржи\" using gemini-2.5-flash",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:52:59.471Z",
-      "source": "System",
-      "message": "Created new post: \"Кризис «Token Maxing»: Почему крупный бизнес сжигает годовые AI-бюджеты за три месяца и как остановить утечку маржи\" (Status: draft)",
-      "level": "info"
-    },
     {
       "timestamp": "2026-05-31T19:53:11.039Z",
       "source": "Telegram",
@@ -4234,6 +4196,84 @@
       "source": "CLI-Drafting",
       "message": "No unused approved topics remaining in database.",
       "level": "warn"
+    },
+    {
+      "timestamp": "2026-07-02T08:54:20.651Z",
+      "source": "CLI-Propose",
+      "message": "Running daily topic proposal...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:54:20.654Z",
+      "source": "Gemini",
+      "message": "Generating 5 new expert topics...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:54:58.745Z",
+      "source": "System",
+      "message": "Added new topic: \"Governance-Driven M&A: Как этический ИИ и прозрачность алгоритмов становятся ключевым активом в сделках по слияниям и поглощениям\" (Status: pending)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:54:59.266Z",
+      "source": "Telegram",
+      "message": "Topic proposal \"Governance-Driven M&A: Как этический ИИ и прозрачность алгоритмов становятся ключевым активом в сделках по слияниям и поглощениям\" sent to admin",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:54:59.271Z",
+      "source": "System",
+      "message": "Added new topic: \"Тренеры для ИИ-Гигантов: Как бренды переходят от пассивной оптимизации к активному формированию знаний в Generative Search\" (Status: pending)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:54:59.452Z",
+      "source": "Telegram",
+      "message": "Topic proposal \"Тренеры для ИИ-Гигантов: Как бренды переходят от пассивной оптимизации к активному формированию знаний в Generative Search\" sent to admin",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:54:59.457Z",
+      "source": "System",
+      "message": "Added new topic: \"Инженерия LTV: Как AI-агенты переходят от прогнозирования к активному формированию и максимизации пожизненной ценности клиента\" (Status: pending)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:54:59.674Z",
+      "source": "Telegram",
+      "message": "Topic proposal \"Инженерия LTV: Как AI-агенты переходят от прогнозирования к активному формированию и максимизации пожизненной ценности клиента\" sent to admin",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:54:59.679Z",
+      "source": "System",
+      "message": "Added new topic: \"Интеллектуальная Цепочка Поставок: Как суверенный R&D контур страхует бизнес от глобальных ИИ-шоков и вендор-лока\" (Status: pending)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:54:59.910Z",
+      "source": "Telegram",
+      "message": "Topic proposal \"Интеллектуальная Цепочка Поставок: Как суверенный R&D контур страхует бизнес от глобальных ИИ-шоков и вендор-лока\" sent to admin",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:54:59.915Z",
+      "source": "System",
+      "message": "Added new topic: \"Невидимая Маржа: Как Agentic AI переписывает экономику цепи создания стоимости и требует новой финансовой стратегии\" (Status: pending)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:55:00.077Z",
+      "source": "Telegram",
+      "message": "Topic proposal \"Невидимая Маржа: Как Agentic AI переписывает экономику цепи создания стоимости и требует новой финансовой стратегии\" sent to admin",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T08:55:00.080Z",
+      "source": "CLI-Propose",
+      "message": "Successfully generated and proposed 5 topics to admin",
+      "level": "info"
     }
   ]
 }
