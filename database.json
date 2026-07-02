@@ -1276,18 +1276,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-05-31T19:53:11.039Z",
-      "source": "Telegram",
-      "message": "Publishing article: \"Кризис «Token Maxing»: Почему крупный бизнес сжигает годовые AI-бюджеты за три месяца и как остановить утечку маржи\" to channel: -1003174019362",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:53:11.894Z",
-      "source": "System",
-      "message": "Updated post: \"Кризис «Token Maxing»: Почему крупный бизнес сжигает годовые AI-бюджеты за три месяца и как остановить утечку маржи\" (Status: published)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-05-31T19:53:11.896Z",
       "source": "Telegram",
       "message": "Successfully published post: \"Кризис «Token Maxing»: Почему крупный бизнес сжигает годовые AI-бюджеты за три месяца и как остановить утечку маржи\"",
@@ -4274,6 +4262,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T11:30:42.204Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-02T11:30:42.207Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
