@@ -1182,6 +1182,46 @@
       "description": "Разберем, как автономные ИИ-агенты, оптимизирующие каждый этап бизнес-процессов, не только снижают издержки, но и неявно перераспределяют прибыль между участниками рынка. Объясним, почему традиционные подходы к ценообразованию, учету затрат и оценке маржинальности становятся неактуальными, и как CFO должны переосмыслить всю экономику компании, чтобы капитализировать \"невидимую маржу\", создаваемую ИИ, и не потерять долю рынка. Предложим фреймворк для аудита и капитализации \"AI-driven value chain\".",
       "status": "pending",
       "used": false
+    },
+    {
+      "id": "topic_1783070193673",
+      "block": "Финансовая архитектура ИИ-эпохи",
+      "title": "«Невидимые Связи»: Как Agentic AI переписывает системные риски и почему CFO нужен новый фреймворк стресс-тестирования",
+      "description": "Раскрыть, как автономные ИИ-агенты, взаимодействуя друг с другом и внешними системами, создают сложные, нелинейные финансовые риски, выходящие за рамки традиционных моделей. Предложить CFO фреймворк для идентификации, измерения и хеджирования каскадных сбоев, а также новый подход к стресс-тестированию корпоративной устойчивости в условиях AI-Driven взаимозависимости.",
+      "status": "pending",
+      "used": false
+    },
+    {
+      "id": "topic_1783070194106",
+      "block": "Generative Engine Optimization (GEO)",
+      "title": "«Голос Бренда в Синтетическом Шуме»: Как CEO защитить уникальную тональность и идентичность компании от унификации ИИ-ассистентами",
+      "description": "Исследовать, как Generative AI, синтезируя ответы, может непреднамеренно «усреднять» или искажать уникальный голос и идентичность бренда, делая его неотличимым от конкурентов. Предложить стратегический чек-лист для CEO по встраиванию уникальной ДНК бренда (тональность, ценности, экспертиза) в foundational модели ИИ, чтобы стать не просто источником информации, а архитектором собственного цифрового образа.",
+      "status": "pending",
+      "used": false
+    },
+    {
+      "id": "topic_1783070194252",
+      "block": "Эволюция CRM и клиентских отношений",
+      "title": "«Парадокс Идеальной Эмпатии»: Как AI-агенты меняют психологию клиента и почему CEO нужна стратегия «управляемого дискомфорта»",
+      "description": "Проанализировать, как всеобъемлющая, проактивная и «идеальная» эмпатия от ИИ-агентов может привести к эффекту «стерильности» или «отчуждения» в клиентских отношениях, лишая их человеческого элемента. Предложить CEO стратегию балансировки между эффективностью автономных систем и необходимостью сохранения «человеческого прикосновения», а также методы внедрения «управляемого дискомфорта» для укрепления подлинной лояльности.",
+      "status": "pending",
+      "used": false
+    },
+    {
+      "id": "topic_1783070194407",
+      "block": "Инфраструктурный суверенитет",
+      "title": "«ИИ-Монополия Знания»: Как суверенные SLM-контуры создают эксклюзивные данные и алгоритмы, меняющие правила игры на рынке",
+      "description": "Раскрыть, как владение и обучение локальных SLM в защищенном R&D контуре позволяет Enterprise-компаниям генерировать уникальные, проприетарные датасеты и алгоритмы, которые становятся недостижимым конкурентным преимуществом. Предложить CTO и CFO фреймворк для капитализации этого «монопольного знания», превращая его в новые продуктовые линии, патенты и стратегические активы, недоступные в публичных облаках.",
+      "status": "pending",
+      "used": false
+    },
+    {
+      "id": "topic_1783070194532",
+      "block": "AI Governance и этика",
+      "title": "«Юридический Компаньон»: Как CEO готовиться к искам за автономные решения ИИ и почему текущие страховки не покрывают Generative Liability",
+      "description": "Рассмотреть нарастающие юридические риски, связанные с автономными решениями Agentic AI, особенно в контексте генеративных систем, где «авторство» и «ответственность» размываются. Объяснить, почему традиционные страховые полисы и правовые фреймворки неадекватны для покрытия «генеративной ответственности» (Generative Liability), и предложить CEO и CFO план действий по разработке внутренних протоколов, внешних аудитов и новых видов юридической защиты.",
+      "status": "pending",
+      "used": false
     }
   ],
   "posts": [
@@ -1275,84 +1315,6 @@
     }
   ],
   "logs": [
-    {
-      "timestamp": "2026-05-31T19:53:11.896Z",
-      "source": "Telegram",
-      "message": "Successfully published post: \"Кризис «Token Maxing»: Почему крупный бизнес сжигает годовые AI-бюджеты за три месяца и как остановить утечку маржи\"",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:54:45.487Z",
-      "source": "System",
-      "message": "Server started successfully on port 3000",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:54:45.492Z",
-      "source": "Telegram",
-      "message": "Initializing Telegram bot service...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:54:45.495Z",
-      "source": "Telegram",
-      "message": "Bot handlers configured. Launching polling...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:54:45.496Z",
-      "source": "Scheduler",
-      "message": "Initializing scheduler service...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:54:45.501Z",
-      "source": "Scheduler",
-      "message": "Scheduler service started (1-minute queue check, daily 12:00 auto-draft check)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:55:29.929Z",
-      "source": "System",
-      "message": "Configuration updated successfully",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:55:29.930Z",
-      "source": "Telegram",
-      "message": "User vladmarketolog authenticated as Admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:55:54.399Z",
-      "source": "Gemini",
-      "message": "Initializing generation for: \"Эра автономного исполнения: Почему метрика «Стоимость за лид» (CPL) уступает место «Скорости принятия решений» (Decision Velocity)\" using gemini-2.5-flash",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:56:09.206Z",
-      "source": "System",
-      "message": "Created new post: \"Эра автономного исполнения: Почему метрика «Стоимость за лид» (CPL) уступает место «Скорости принятия решений» (Decision Velocity)\" (Status: draft)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:56:09.440Z",
-      "source": "Telegram",
-      "message": "Failed to send draft to admin: 400: Bad Request: can't parse entities: Unsupported start tag \"br\" at byte offset 1257",
-      "level": "error"
-    },
-    {
-      "timestamp": "2026-05-31T19:57:19.775Z",
-      "source": "System",
-      "message": "Server started successfully on port 3000",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:57:19.778Z",
-      "source": "Telegram",
-      "message": "Initializing Telegram bot service...",
-      "level": "info"
-    },
     {
       "timestamp": "2026-05-31T19:57:19.781Z",
       "source": "Telegram",
@@ -4274,6 +4236,84 @@
       "source": "CLI-Drafting",
       "message": "No unused approved topics remaining in database.",
       "level": "warn"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:13.368Z",
+      "source": "CLI-Propose",
+      "message": "Running daily topic proposal...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:13.371Z",
+      "source": "Gemini",
+      "message": "Generating 5 new expert topics...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:33.675Z",
+      "source": "System",
+      "message": "Added new topic: \"«Невидимые Связи»: Как Agentic AI переписывает системные риски и почему CFO нужен новый фреймворк стресс-тестирования\" (Status: pending)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:34.104Z",
+      "source": "Telegram",
+      "message": "Topic proposal \"«Невидимые Связи»: Как Agentic AI переписывает системные риски и почему CFO нужен новый фреймворк стресс-тестирования\" sent to admin",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:34.109Z",
+      "source": "System",
+      "message": "Added new topic: \"«Голос Бренда в Синтетическом Шуме»: Как CEO защитить уникальную тональность и идентичность компании от унификации ИИ-ассистентами\" (Status: pending)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:34.250Z",
+      "source": "Telegram",
+      "message": "Topic proposal \"«Голос Бренда в Синтетическом Шуме»: Как CEO защитить уникальную тональность и идентичность компании от унификации ИИ-ассистентами\" sent to admin",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:34.255Z",
+      "source": "System",
+      "message": "Added new topic: \"«Парадокс Идеальной Эмпатии»: Как AI-агенты меняют психологию клиента и почему CEO нужна стратегия «управляемого дискомфорта»\" (Status: pending)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:34.393Z",
+      "source": "Telegram",
+      "message": "Topic proposal \"«Парадокс Идеальной Эмпатии»: Как AI-агенты меняют психологию клиента и почему CEO нужна стратегия «управляемого дискомфорта»\" sent to admin",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:34.410Z",
+      "source": "System",
+      "message": "Added new topic: \"«ИИ-Монополия Знания»: Как суверенные SLM-контуры создают эксклюзивные данные и алгоритмы, меняющие правила игры на рынке\" (Status: pending)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:34.529Z",
+      "source": "Telegram",
+      "message": "Topic proposal \"«ИИ-Монополия Знания»: Как суверенные SLM-контуры создают эксклюзивные данные и алгоритмы, меняющие правила игры на рынке\" sent to admin",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:34.534Z",
+      "source": "System",
+      "message": "Added new topic: \"«Юридический Компаньон»: Как CEO готовиться к искам за автономные решения ИИ и почему текущие страховки не покрывают Generative Liability\" (Status: pending)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:34.654Z",
+      "source": "Telegram",
+      "message": "Topic proposal \"«Юридический Компаньон»: Как CEO готовиться к искам за автономные решения ИИ и почему текущие страховки не покрывают Generative Liability\" sent to admin",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T09:16:34.656Z",
+      "source": "CLI-Propose",
+      "message": "Successfully generated and proposed 5 topics to admin",
+      "level": "info"
     }
   ]
 }
