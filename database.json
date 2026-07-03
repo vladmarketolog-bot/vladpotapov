@@ -1316,18 +1316,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-05-31T19:57:19.781Z",
-      "source": "Telegram",
-      "message": "Bot handlers configured. Launching polling...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T19:57:19.786Z",
-      "source": "Scheduler",
-      "message": "Initializing scheduler service...",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-05-31T19:57:19.789Z",
       "source": "Scheduler",
       "message": "Scheduler service started (1-minute queue check, daily 12:00 auto-draft check)",
@@ -4314,6 +4302,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T11:29:02.666Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-03T11:29:02.669Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
