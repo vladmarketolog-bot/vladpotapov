@@ -1356,18 +1356,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-05-31T20:00:53.550Z",
-      "source": "Scheduler",
-      "message": "Scheduler service started (1-min queue check, daily 09:00 topic proposals, daily 12:00 drafts)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T20:01:23.316Z",
-      "source": "Gemini",
-      "message": "Generating 2 new expert topics...",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-05-31T20:01:38.371Z",
       "source": "Gemini",
       "message": "Initializing generation for: \"Кризис «Token Maxing»: Почему крупный бизнес сжигает годовые AI-бюджеты за три месяца и как остановить утечку маржи\" using gemini-2.5-flash",
@@ -4354,6 +4342,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-04T10:51:34.402Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-04T10:51:34.405Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
