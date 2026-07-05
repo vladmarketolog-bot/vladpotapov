@@ -1396,18 +1396,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-05-31T20:08:21.186Z",
-      "source": "System",
-      "message": "Added new topic: \"Прогнозирование оттока: Как AI-агенты предсказывают и предотвращают уход клиентов до того, как CRM увидит проблему\" (Status: pending)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T20:08:21.417Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Прогнозирование оттока: Как AI-агенты предсказывают и предотвращают уход клиентов до того, как CRM увидит проблему\" sent to admin",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-05-31T20:08:21.419Z",
       "source": "System",
       "message": "Added new topic: \"Гибридный суверенитет: Как построить безопасный R&D контур для SLM, не отрезая себя от глобальных инноваций\" (Status: pending)",
@@ -4394,6 +4382,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-05T11:01:29.337Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-05T11:01:29.340Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
