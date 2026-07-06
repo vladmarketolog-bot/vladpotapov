@@ -1436,18 +1436,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-05-31T20:10:29.333Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Синтетическая подлинность: Как сохранить уникальность бренда, когда ИИ-ассистенты переписывают вашу историю\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T20:10:29.334Z",
-      "source": "System",
-      "message": "Added new topic: \"Команда «Человек + Агент»: Как ИИ-копилоты трансформируют продажи и сервис, усиливая, а не заменяя LTV-менеджеров\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-05-31T20:10:29.505Z",
       "source": "Telegram",
       "message": "Topic proposal \"Команда «Человек + Агент»: Как ИИ-копилоты трансформируют продажи и сервис, усиливая, а не заменяя LTV-менеджеров\" sent to admin",
@@ -4434,6 +4422,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-06T12:42:17.831Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-06T12:42:17.833Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
