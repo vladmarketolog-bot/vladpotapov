@@ -1476,18 +1476,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-05-31T20:15:11.439Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"ИИ как новый класс активов: Как оценка компаний меняется под давлением Generative AI\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T20:15:11.440Z",
-      "source": "System",
-      "message": "Added new topic: \"AI-driven Brand Shield: Как Generative Search превращает репутационные риски в конкурентное преимущество\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-05-31T20:15:11.660Z",
       "source": "Telegram",
       "message": "Topic proposal \"AI-driven Brand Shield: Как Generative Search превращает репутационные риски в конкурентное преимущество\" sent to admin",
@@ -4474,6 +4462,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-07T11:44:17.529Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-07T11:44:17.532Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
