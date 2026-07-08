@@ -1516,18 +1516,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-05-31T20:15:31.368Z",
-      "source": "Gemini",
-      "message": "Generation error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-      "level": "error"
-    },
-    {
-      "timestamp": "2026-05-31T20:15:31.369Z",
-      "source": "CLI-Drafting",
-      "message": "Drafting script failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-      "level": "error"
-    },
-    {
       "timestamp": "2026-05-31T20:15:38.577Z",
       "source": "CLI-Drafting",
       "message": "Running daily approved topic drafting...",
@@ -4514,6 +4502,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-08T11:00:26.488Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-08T11:00:26.491Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
