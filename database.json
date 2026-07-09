@@ -1556,18 +1556,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-05-31T20:30:33.182Z",
-      "source": "CLI-Propose",
-      "message": "Running daily topic proposal...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T20:30:33.183Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-05-31T20:30:52.070Z",
       "source": "System",
       "message": "Added new topic: \"«Баланс автономии»: Как капитализировать внутренние LLM и почему ваш CFO должен переосмыслить амортизацию AI-активов\" (Status: pending)",
@@ -4554,6 +4542,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-09T11:53:18.132Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-09T11:53:18.135Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
