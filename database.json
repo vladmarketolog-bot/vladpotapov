@@ -1596,18 +1596,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-05-31T20:35:27.713Z",
-      "source": "System",
-      "message": "Created new post: \"Команда «Человек + Агент»: Как ИИ-копилоты трансформируют продажи и сервис, усиливая, а не заменяя LTV-менеджеров\" (Status: draft)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-05-31T20:35:28.175Z",
-      "source": "Telegram",
-      "message": "Draft \"Команда «Человек + Агент»: Как ИИ-копилоты трансформируют продажи и сервис, усиливая, а не заменяя LTV-менеджеров\" sent to admin for approval",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-05-31T20:35:28.176Z",
       "source": "Gemini",
       "message": "Initializing generation for: \"Цена бездействия: Как «ИИ-инерция» съедает долю рынка и мультипликаторы компании в эпоху автономных систем\" using gemini-2.5-flash",
@@ -4594,6 +4582,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-10T11:46:50.740Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-10T11:46:50.743Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
