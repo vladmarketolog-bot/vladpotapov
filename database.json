@@ -1636,18 +1636,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-02T10:22:50.879Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"«Моральный компас» ИИ-агента: Как управлять этикой автономных систем в клиентском сервисе и продажах, избегая репутационных ловушек\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-02T10:22:50.881Z",
-      "source": "System",
-      "message": "Added new topic: \"Невидимый мозг компании: Операционный фреймворк для масштабирования и защиты суверенных SLM в корпоративном контуре\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-02T10:22:51.019Z",
       "source": "Telegram",
       "message": "Topic proposal \"Невидимый мозг компании: Операционный фреймворк для масштабирования и защиты суверенных SLM в корпоративном контуре\" sent to admin",
@@ -4634,6 +4622,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-11T10:11:42.929Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-11T10:11:42.932Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
