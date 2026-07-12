@@ -1676,18 +1676,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-03T10:57:51.969Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"«Проактивные продажи 3.0»: Как ИИ-агенты переписывают воронки продаж, создавая спрос и персонализированные предложения до контакта с клиентом\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-03T10:57:51.971Z",
-      "source": "System",
-      "message": "Added new topic: \"«Кадровая крепость»: Стратегия HR для суверенного ИИ — как вырастить и удержать инженеров, управляющих вашим защищенным R&D контуром\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-03T10:57:52.130Z",
       "source": "Telegram",
       "message": "Topic proposal \"«Кадровая крепость»: Стратегия HR для суверенного ИИ — как вырастить и удержать инженеров, управляющих вашим защищенным R&D контуром\" sent to admin",
@@ -4674,6 +4662,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-12T10:22:58.688Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-12T10:22:58.691Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
