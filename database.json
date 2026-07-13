@@ -1716,18 +1716,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-04T09:55:31.219Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"«Доверие на кончиках алгоритмов»: Как измерять и строить лояльность клиентов в эпоху полностью автономного AI-сервиса\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-04T09:55:31.221Z",
-      "source": "System",
-      "message": "Added new topic: \"Стратегия «AI-микросервисов»: Как декомпозировать монолитные ИИ-решения для гибкости, безопасности и независимости от вендоров\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-04T09:55:31.393Z",
       "source": "Telegram",
       "message": "Topic proposal \"Стратегия «AI-микросервисов»: Как декомпозировать монолитные ИИ-решения для гибкости, безопасности и независимости от вендоров\" sent to admin",
@@ -4714,6 +4702,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-13T11:57:31.305Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-13T11:57:31.308Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
