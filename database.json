@@ -1756,18 +1756,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-06T08:32:59.862Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Кибер-репутация 2.0: Как отразить атаки синтетического контента и обеспечить незыблемость бренда в эпоху Generative Search\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-06T08:32:59.864Z",
-      "source": "System",
-      "message": "Added new topic: \"Автономные агенты и «Корпоративный омбудсмен»: Кто несет ответственность за решения ИИ в клиентском сервисе и как избежать юридических рисков\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-06T08:32:59.985Z",
       "source": "Telegram",
       "message": "Topic proposal \"Автономные агенты и «Корпоративный омбудсмен»: Кто несет ответственность за решения ИИ в клиентском сервисе и как избежать юридических рисков\" sent to admin",
@@ -4754,6 +4742,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-14T10:41:27.922Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-14T10:41:27.925Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
