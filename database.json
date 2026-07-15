@@ -1796,18 +1796,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-07T08:55:06.388Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Контент-инжиниринг для ИИ-эпохи: Как перестроить редакцию и маркетинг для создания «цифровых сущностей», а не статей, и стать источником истины для ChatGPT\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-07T08:55:06.390Z",
-      "source": "System",
-      "message": "Added new topic: \"От «менеджера по работе с клиентами» к «архитектору отношений»: Как ИИ-агенты становятся вашим главным инструментом для построения глубокой лояльности и персонализированной эмпатии\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-07T08:55:06.557Z",
       "source": "Telegram",
       "message": "Topic proposal \"От «менеджера по работе с клиентами» к «архитектору отношений»: Как ИИ-агенты становятся вашим главным инструментом для построения глубокой лояльности и персонализированной эмпатии\" sent to admin",
@@ -4794,6 +4782,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-15T10:44:55.956Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-15T10:44:55.959Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
