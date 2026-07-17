@@ -1876,18 +1876,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-11T10:22:32.629Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-11T10:22:59.881Z",
-      "source": "System",
-      "message": "Added new topic: \"Баланс Невидимого Интеллекта: Как ИИ-активы меняют финансовую отчетность и требования к аудиту\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-11T10:23:00.486Z",
       "source": "Telegram",
       "message": "Topic proposal \"Баланс Невидимого Интеллекта: Как ИИ-активы меняют финансовую отчетность и требования к аудиту\" sent to admin",
@@ -4874,6 +4862,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-17T10:42:23.594Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-17T10:42:23.598Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
