@@ -1916,18 +1916,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-12T10:11:45.769Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-12T10:12:09.582Z",
-      "source": "System",
-      "message": "Added new topic: \"AI-Синтезированная Собственность: Как капитализировать неявные активы, созданные автономными системами\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-12T10:12:10.128Z",
       "source": "Telegram",
       "message": "Topic proposal \"AI-Синтезированная Собственность: Как капитализировать неявные активы, созданные автономными системами\" sent to admin",
@@ -4914,6 +4902,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-18T10:15:23.764Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-18T10:15:23.767Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
