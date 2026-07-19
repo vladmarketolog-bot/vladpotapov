@@ -1956,18 +1956,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-13T08:57:10.435Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-13T08:57:31.948Z",
-      "source": "System",
-      "message": "Added new topic: \"«Внутренний AI-Провайдер»: Как корпоративный R&D контур генерирует чистую прибыль и стратегическую гибкость, а не только издержки\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-13T08:57:32.471Z",
       "source": "Telegram",
       "message": "Topic proposal \"«Внутренний AI-Провайдер»: Как корпоративный R&D контур генерирует чистую прибыль и стратегическую гибкость, а не только издержки\" sent to admin",
@@ -4954,6 +4942,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-19T10:23:24.011Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-19T10:23:24.015Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
