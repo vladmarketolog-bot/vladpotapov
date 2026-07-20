@@ -1996,18 +1996,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-14T09:32:55.669Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-14T09:33:21.484Z",
-      "source": "System",
-      "message": "Added new topic: \"«Невидимый долг»: Как отложенные AI-обновления и технический легаси уничтожают будущую капитализацию\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-14T09:33:22.011Z",
       "source": "Telegram",
       "message": "Topic proposal \"«Невидимый долг»: Как отложенные AI-обновления и технический легаси уничтожают будущую капитализацию\" sent to admin",
@@ -4994,6 +4982,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-20T11:41:03.147Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-20T11:41:03.150Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
