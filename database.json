@@ -1996,18 +1996,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-14T09:33:22.011Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"«Невидимый долг»: Как отложенные AI-обновления и технический легаси уничтожают будущую капитализацию\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-14T09:33:22.013Z",
-      "source": "System",
-      "message": "Added new topic: \"«Архитектор Внимания»: Как бренды переходят от SEO к проектированию цифровых сущностей для доминирования в AI-интерфейсах\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-14T09:33:22.273Z",
       "source": "Telegram",
       "message": "Topic proposal \"«Архитектор Внимания»: Как бренды переходят от SEO к проектированию цифровых сущностей для доминирования в AI-интерфейсах\" sent to admin",
@@ -4991,6 +4979,18 @@
     },
     {
       "timestamp": "2026-07-20T11:41:03.150Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
+    },
+    {
+      "timestamp": "2026-07-21T11:04:07.030Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-21T11:04:07.034Z",
       "source": "CLI-Drafting",
       "message": "No unused approved topics remaining in database.",
       "level": "warn"
