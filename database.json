@@ -2076,18 +2076,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-16T11:09:30.155Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"AI-Driven Financial Productization: Как внутренние ИИ-модели становятся новым классом продаваемых активов и меняют структуру корпоративных финансов\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-16T11:09:30.158Z",
-      "source": "System",
-      "message": "Added new topic: \"CFO's AI-Native Dashboard: Новые метрики и индикаторы для контроля Agentic AI в реальном времени и стратегического управления рисками\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-16T11:09:30.294Z",
       "source": "Telegram",
       "message": "Topic proposal \"CFO's AI-Native Dashboard: Новые метрики и индикаторы для контроля Agentic AI в реальном времени и стратегического управления рисками\" sent to admin",
@@ -5074,6 +5062,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-23T11:05:45.928Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-23T11:05:45.932Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
