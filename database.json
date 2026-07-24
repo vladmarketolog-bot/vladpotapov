@@ -2116,18 +2116,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-17T10:54:46.613Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Beyond EBITDA: Как \"Generative Velocity\" и \"Data Moat\" переписывают оценку стоимости AI-компаний для инвесторов и M&A\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-17T10:54:46.616Z",
-      "source": "System",
-      "message": "Added new topic: \"От Запросов к Заветам: Как бренды формируют свой \"цифровой геном\" для ИИ-ассистентов, чтобы стать источником неискаженной истины\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-17T10:54:46.798Z",
       "source": "Telegram",
       "message": "Topic proposal \"От Запросов к Заветам: Как бренды формируют свой \"цифровой геном\" для ИИ-ассистентов, чтобы стать источником неискаженной истины\" sent to admin",
@@ -5114,6 +5102,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-24T11:00:51.811Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-24T11:00:51.814Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
