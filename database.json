@@ -2156,18 +2156,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-19T10:24:58.902Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-19T10:25:22.641Z",
-      "source": "System",
-      "message": "Added new topic: \"AI-Driven Moat: Как невидимые активы ИИ переписывают формулу конкурентного преимущества и мультипликаторы компании\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-19T10:25:23.048Z",
       "source": "Telegram",
       "message": "Topic proposal \"AI-Driven Moat: Как невидимые активы ИИ переписывают формулу конкурентного преимущества и мультипликаторы компании\" sent to admin",
@@ -5154,6 +5142,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-25T10:23:36.093Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-25T10:23:36.096Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
