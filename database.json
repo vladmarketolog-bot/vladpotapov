@@ -2196,18 +2196,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-20T08:54:39.253Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-20T08:55:03.151Z",
-      "source": "System",
-      "message": "Added new topic: \"Дефляционная ловушка ИИ: Как CFO адаптировать капитальную стратегию, когда автономные системы снижают цены до нуля\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-20T08:55:03.520Z",
       "source": "Telegram",
       "message": "Topic proposal \"Дефляционная ловушка ИИ: Как CFO адаптировать капитальную стратегию, когда автономные системы снижают цены до нуля\" sent to admin",
@@ -5194,6 +5182,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-26T10:41:03.323Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-26T10:41:03.326Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
