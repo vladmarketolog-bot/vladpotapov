@@ -2236,18 +2236,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-21T09:48:33.311Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-21T09:49:02.776Z",
-      "source": "System",
-      "message": "Added new topic: \"Скрытая безработица ИИ: Почему рост производительности не ведет к росту маржи и как переосмыслить капитализацию человеческого капитала\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-21T09:49:03.419Z",
       "source": "Telegram",
       "message": "Topic proposal \"Скрытая безработица ИИ: Почему рост производительности не ведет к росту маржи и как переосмыслить капитализацию человеческого капитала\" sent to admin",
@@ -5234,6 +5222,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-27T12:17:26.785Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-27T12:17:26.788Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
