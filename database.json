@@ -2276,18 +2276,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-22T11:52:11.937Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-22T11:52:38.141Z",
-      "source": "System",
-      "message": "Added new topic: \"ИИ-портфель 2.0: Как CFO управляют динамическими активами ИИ и оптимизируют капитальную структуру в условиях непредсказуемой эволюции моделей\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-22T11:52:38.528Z",
       "source": "Telegram",
       "message": "Topic proposal \"ИИ-портфель 2.0: Как CFO управляют динамическими активами ИИ и оптимизируют капитальную структуру в условиях непредсказуемой эволюции моделей\" sent to admin",
@@ -5274,6 +5262,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-28T11:13:10.844Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-28T11:13:10.847Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
