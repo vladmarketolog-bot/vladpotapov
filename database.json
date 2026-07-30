@@ -2356,18 +2356,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-26T09:24:46.764Z",
-      "source": "System",
-      "message": "Added new topic: \"Экономика «Невидимого Внимания»: Как бренды переизобретают монетизацию и ценностное предложение в эпоху Zero-Click доминирования ИИ\" (Status: pending)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-26T09:24:46.893Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Экономика «Невидимого Внимания»: Как бренды переизобретают монетизацию и ценностное предложение в эпоху Zero-Click доминирования ИИ\" sent to admin",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-26T09:24:46.895Z",
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
@@ -5354,6 +5342,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-30T11:03:36.737Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-30T11:03:36.740Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
