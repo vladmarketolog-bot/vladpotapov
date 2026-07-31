@@ -2396,18 +2396,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-27T08:35:31.783Z",
-      "source": "System",
-      "message": "Added new topic: \"The Algorithmic Conscience: Как построить аудируемую архитектуру этического принятия решений для сети автономных ИИ-агентов\" (Status: pending)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-27T08:35:31.961Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"The Algorithmic Conscience: Как построить аудируемую архитектуру этического принятия решений для сети автономных ИИ-агентов\" sent to admin",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-27T08:35:31.963Z",
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
@@ -5394,6 +5382,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-07-31T11:26:24.933Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-07-31T11:26:24.936Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
