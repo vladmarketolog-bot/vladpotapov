@@ -2436,18 +2436,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-28T08:50:33.192Z",
-      "source": "System",
-      "message": "Added new topic: \"«Эволюционный Капитал ИИ»: Как динамические, самообучающиеся модели ИИ становятся новым классом активов, переписывая балансы, мультипликаторы M&A и долгосрочную стратегию финансирования\" (Status: pending)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-28T08:50:33.433Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"«Эволюционный Капитал ИИ»: Как динамические, самообучающиеся модели ИИ становятся новым классом активов, переписывая балансы, мультипликаторы M&A и долгосрочную стратегию финансирования\" sent to admin",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-28T08:50:33.435Z",
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
@@ -5434,6 +5422,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-01T10:37:12.397Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-01T10:37:12.401Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
