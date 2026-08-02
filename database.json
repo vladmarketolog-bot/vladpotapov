@@ -2476,18 +2476,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-29T10:58:02.730Z",
-      "source": "System",
-      "message": "Added new topic: \"Динамический Аудит Рисков: Как CFO и CTO строят 'живые' системы мониторинга для управления постоянно эволюционирующими угрозами от автономных ИИ-агентов\" (Status: pending)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-29T10:58:02.905Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Динамический Аудит Рисков: Как CFO и CTO строят 'живые' системы мониторинга для управления постоянно эволюционирующими угрозами от автономных ИИ-агентов\" sent to admin",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-29T10:58:02.907Z",
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
@@ -5474,6 +5462,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-02T10:36:18.956Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-02T10:36:18.959Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
