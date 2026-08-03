@@ -2516,18 +2516,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-06-30T09:34:19.193Z",
-      "source": "System",
-      "message": "Added new topic: \"«Парадокс Производительности»: Как Agentic AI уничтожает традиционные рабочие места, не создавая новых, и что это значит для вашей HR-стратегии и национальной экономики\" (Status: pending)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-06-30T09:34:19.468Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"«Парадокс Производительности»: Как Agentic AI уничтожает традиционные рабочие места, не создавая новых, и что это значит для вашей HR-стратегии и национальной экономики\" sent to admin",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-06-30T09:34:19.470Z",
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
@@ -5514,6 +5502,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-03T12:18:13.202Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-03T12:18:13.205Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
