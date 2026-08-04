@@ -2556,18 +2556,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-01T09:43:33.417Z",
-      "source": "System",
-      "message": "Added new topic: \"Геополитика Кода: Как суверенный ИИ становится новым стратегическим активом, переписывая торговые альянсы и правила кибербезопасности для Enterprise-сегмента\" (Status: pending)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-01T09:43:33.540Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Геополитика Кода: Как суверенный ИИ становится новым стратегическим активом, переписывая торговые альянсы и правила кибербезопасности для Enterprise-сегмента\" sent to admin",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-01T09:43:33.543Z",
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
@@ -5554,6 +5542,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-04T11:20:30.774Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-04T11:20:30.778Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
