@@ -2596,18 +2596,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-02T08:54:59.915Z",
-      "source": "System",
-      "message": "Added new topic: \"Невидимая Маржа: Как Agentic AI переписывает экономику цепи создания стоимости и требует новой финансовой стратегии\" (Status: pending)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-02T08:55:00.077Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Невидимая Маржа: Как Agentic AI переписывает экономику цепи создания стоимости и требует новой финансовой стратегии\" sent to admin",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-02T08:55:00.080Z",
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
@@ -5594,6 +5582,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-05T11:16:30.880Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-05T11:16:30.884Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
