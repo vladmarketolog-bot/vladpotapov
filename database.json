@@ -2756,18 +2756,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-07T09:38:43.380Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-07T09:39:28.341Z",
-      "source": "System",
-      "message": "Added new topic: \"«ИИ-Премия за Капитал»: Как Generative AI переписывает Equity Risk Premium и стоимость заемного финансирования для Enterprise\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-07T09:39:28.725Z",
       "source": "Telegram",
       "message": "Topic proposal \"«ИИ-Премия за Капитал»: Как Generative AI переписывает Equity Risk Premium и стоимость заемного финансирования для Enterprise\" sent to admin",
@@ -5751,6 +5739,18 @@
     },
     {
       "timestamp": "2026-08-11T09:55:53.345Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
+    },
+    {
+      "timestamp": "2026-08-12T09:57:08.053Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-12T09:57:08.057Z",
       "source": "CLI-Drafting",
       "message": "No unused approved topics remaining in database.",
       "level": "warn"
