@@ -2836,18 +2836,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-09T09:36:56.496Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-09T09:37:20.359Z",
-      "source": "System",
-      "message": "Added new topic: \"AI-Нативный Капитализм: Как автономные агенты переопределяют ценность, риск и саму природу денег\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-09T09:37:20.807Z",
       "source": "Telegram",
       "message": "Topic proposal \"AI-Нативный Капитализм: Как автономные агенты переопределяют ценность, риск и саму природу денег\" sent to admin",
@@ -5834,6 +5822,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-14T09:55:36.121Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-14T09:55:36.125Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
