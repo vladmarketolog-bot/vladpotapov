@@ -2876,18 +2876,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-10T09:32:59.067Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-10T09:33:27.317Z",
-      "source": "System",
-      "message": "Added new topic: \"AI-Driven Volatility: Как автономные ИИ-агенты трансформируют рыночные циклы и почему CFO нужны новые инструменты хеджирования\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-10T09:33:27.881Z",
       "source": "Telegram",
       "message": "Topic proposal \"AI-Driven Volatility: Как автономные ИИ-агенты трансформируют рыночные циклы и почему CFO нужны новые инструменты хеджирования\" sent to admin",
@@ -5874,6 +5862,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-15T09:20:58.983Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-15T09:20:58.987Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
