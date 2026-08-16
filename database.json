@@ -2916,18 +2916,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-11T07:53:39.154Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-11T07:54:26.200Z",
-      "source": "System",
-      "message": "Added new topic: \"Алгоритмическая Инфляция: Как AI-агенты меняют ценообразование, управление запасами и оборотный капитал в реальном времени\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-11T07:54:26.590Z",
       "source": "Telegram",
       "message": "Topic proposal \"Алгоритмическая Инфляция: Как AI-агенты меняют ценообразование, управление запасами и оборотный капитал в реальном времени\" sent to admin",
@@ -5914,6 +5902,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-16T09:21:57.629Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-16T09:21:57.633Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
