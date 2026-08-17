@@ -2956,18 +2956,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-12T08:14:35.507Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-12T08:16:20.017Z",
-      "source": "System",
-      "message": "Added new topic: \"AI-Консолидация Рынка: Как Generative AI переписывает правила M&A, создавая новые монополии и \"невидимые\" активы\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-12T08:16:20.414Z",
       "source": "Telegram",
       "message": "Topic proposal \"AI-Консолидация Рынка: Как Generative AI переписывает правила M&A, создавая новые монополии и \"невидимые\" активы\" sent to admin",
@@ -5954,6 +5942,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-17T09:35:42.115Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-17T09:35:42.119Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
