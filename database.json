@@ -2996,18 +2996,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-13T09:23:57.818Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-13T09:24:31.269Z",
-      "source": "System",
-      "message": "Added new topic: \"Переоценка Мира: Как ИИ-автономия меняет риск-премии, перераспределяет капитал между отраслями и создает новые классы \"невидимых\" активов\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-13T09:24:31.837Z",
       "source": "Telegram",
       "message": "Topic proposal \"Переоценка Мира: Как ИИ-автономия меняет риск-премии, перераспределяет капитал между отраслями и создает новые классы \"невидимых\" активов\" sent to admin",
@@ -5994,6 +5982,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-18T09:26:50.256Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-18T09:26:50.259Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
