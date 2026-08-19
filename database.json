@@ -3036,18 +3036,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-14T08:02:01.296Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-14T08:02:26.398Z",
-      "source": "System",
-      "message": "Added new topic: \"Эффект Домино Агентов: Как автономные ИИ-системы создают новые системные риски для глобальных рынков и чего ждать CFO\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-14T08:02:27.094Z",
       "source": "Telegram",
       "message": "Topic proposal \"Эффект Домино Агентов: Как автономные ИИ-системы создают новые системные риски для глобальных рынков и чего ждать CFO\" sent to admin",
@@ -6034,6 +6022,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-19T09:28:02.872Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-19T09:28:02.876Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
