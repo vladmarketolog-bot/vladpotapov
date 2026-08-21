@@ -3116,18 +3116,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-16T08:10:29.036Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-16T08:11:04.932Z",
-      "source": "System",
-      "message": "Added new topic: \"Макро-стратегия в мире AI-Driven \"Black Swans\": Как CFO и CEO готовятся к непредсказуемым шокам, вызванным автономными системами, и переоценивают устойчивость портфелей активов\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-16T08:11:05.405Z",
       "source": "Telegram",
       "message": "Topic proposal \"Макро-стратегия в мире AI-Driven \"Black Swans\": Как CFO и CEO готовятся к непредсказуемым шокам, вызванным автономными системами, и переоценивают устойчивость портфелей активов\" sent to admin",
@@ -6114,6 +6102,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-21T09:31:12.831Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-21T09:31:12.835Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
