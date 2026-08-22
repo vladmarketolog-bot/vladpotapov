@@ -3156,18 +3156,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-17T08:07:54.663Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-17T08:08:22.491Z",
-      "source": "System",
-      "message": "Added new topic: \"Алгоритмическая эрозия маржи: Как CFO хеджировать риски AI-оптимизации цен и спроса\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-17T08:08:22.954Z",
       "source": "Telegram",
       "message": "Topic proposal \"Алгоритмическая эрозия маржи: Как CFO хеджировать риски AI-оптимизации цен и спроса\" sent to admin",
@@ -6154,6 +6142,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-22T09:21:50.348Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-22T09:21:50.352Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
