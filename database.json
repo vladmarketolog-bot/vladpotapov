@@ -3196,18 +3196,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-18T07:47:22.022Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-18T07:48:19.896Z",
-      "source": "System",
-      "message": "Added new topic: \"Эндогенная Хрупкость ИИ: Как Agentic AI создает новые системные риски и как CFO переосмыслить стратегии хеджирования\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-18T07:48:20.400Z",
       "source": "Telegram",
       "message": "Topic proposal \"Эндогенная Хрупкость ИИ: Как Agentic AI создает новые системные риски и как CFO переосмыслить стратегии хеджирования\" sent to admin",
@@ -6194,6 +6182,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-23T09:22:45.790Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-23T09:22:45.794Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
