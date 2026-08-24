@@ -3236,18 +3236,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-19T08:14:51.705Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-19T08:16:10.319Z",
-      "source": "System",
-      "message": "Added new topic: \"Динамический баланс ИИ: Как CFO капитализировать самообучающиеся модели и переосмыслить амортизацию активов\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-19T08:16:10.968Z",
       "source": "Telegram",
       "message": "Topic proposal \"Динамический баланс ИИ: Как CFO капитализировать самообучающиеся модели и переосмыслить амортизацию активов\" sent to admin",
@@ -6234,6 +6222,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-24T09:41:22.308Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-24T09:41:22.312Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
