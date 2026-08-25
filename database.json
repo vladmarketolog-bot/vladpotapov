@@ -3276,18 +3276,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-07-20T08:55:43.986Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-07-20T08:56:17.099Z",
-      "source": "System",
-      "message": "Added new topic: \"AI-Нативный Баланс: Как CFO переосмысливают учет самоэволюционирующих ИИ-активов и их нелинейную амортизацию\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-07-20T08:56:17.625Z",
       "source": "Telegram",
       "message": "Topic proposal \"AI-Нативный Баланс: Как CFO переосмысливают учет самоэволюционирующих ИИ-активов и их нелинейную амортизацию\" sent to admin",
@@ -6274,6 +6262,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-08-25T09:30:01.848Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-08-25T09:30:01.852Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
