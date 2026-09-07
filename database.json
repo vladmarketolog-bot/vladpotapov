@@ -3796,18 +3796,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-02T10:36:18.959Z",
-      "source": "CLI-Drafting",
-      "message": "No unused approved topics remaining in database.",
-      "level": "warn"
-    },
-    {
-      "timestamp": "2026-08-03T09:41:22.909Z",
-      "source": "CLI-Propose",
-      "message": "Running daily topic proposal...",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-03T09:41:22.913Z",
       "source": "Gemini",
       "message": "Generating 5 new expert topics...",
@@ -6794,6 +6782,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-09-07T14:43:13.004Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-09-07T14:43:13.009Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
