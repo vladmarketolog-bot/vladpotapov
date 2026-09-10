@@ -3876,18 +3876,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-05T08:33:22.459Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-05T08:33:50.036Z",
-      "source": "System",
-      "message": "Added new topic: \"«Алгоритмическая Революция Ликвидности: Как ИИ-агенты переписывают динамику глобального капитала и стратегию CFO по перераспределению активов»\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-05T08:33:50.636Z",
       "source": "Telegram",
       "message": "Topic proposal \"«Алгоритмическая Революция Ликвидности: Как ИИ-агенты переписывают динамику глобального капитала и стратегию CFO по перераспределению активов»\" sent to admin",
@@ -6871,6 +6859,18 @@
     },
     {
       "timestamp": "2026-09-09T13:20:15.139Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
+    },
+    {
+      "timestamp": "2026-09-10T13:17:04.950Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-09-10T13:17:04.954Z",
       "source": "CLI-Drafting",
       "message": "No unused approved topics remaining in database.",
       "level": "warn"
