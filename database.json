@@ -3916,18 +3916,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-06T08:33:32.741Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-06T08:33:56.280Z",
-      "source": "System",
-      "message": "Added new topic: \"Автономные Финансовые Агенты: От Оптимизации к Созданию Новых Рынков\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-06T08:33:56.959Z",
       "source": "Telegram",
       "message": "Topic proposal \"Автономные Финансовые Агенты: От Оптимизации к Созданию Новых Рынков\" sent to admin",
@@ -6914,6 +6902,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-09-11T13:11:20.205Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-09-11T13:11:20.211Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
