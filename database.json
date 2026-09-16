@@ -4116,18 +4116,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-13T07:24:32.720Z",
-      "source": "System",
-      "message": "Added new topic: \"Оркестровка агентного предприятия: CEO-план гармонизации ИИ-решений и человеческого контроля\" (Status: pending)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-13T07:24:32.867Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Оркестровка агентного предприятия: CEO-план гармонизации ИИ-решений и человеческого контроля\" sent to admin",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-13T07:24:32.870Z",
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
@@ -7114,6 +7102,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-09-16T13:59:24.533Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-09-16T13:59:24.538Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
