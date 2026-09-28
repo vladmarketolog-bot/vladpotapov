@@ -4476,18 +4476,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-23T06:37:48.422Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-23T06:41:34.618Z",
-      "source": "System",
-      "message": "Added new topic: \"Эффект Сноудена 2.0: Как прозрачность и аудируемость ИИ-решений становятся новым требованием для IPO и M&A\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-23T06:41:34.979Z",
       "source": "Telegram",
       "message": "Topic proposal \"Эффект Сноудена 2.0: Как прозрачность и аудируемость ИИ-решений становятся новым требованием для IPO и M&A\" sent to admin",
@@ -7471,6 +7459,18 @@
     },
     {
       "timestamp": "2026-09-27T14:31:14.122Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
+    },
+    {
+      "timestamp": "2026-09-28T17:17:14.968Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-09-28T17:17:14.973Z",
       "source": "CLI-Drafting",
       "message": "No unused approved topics remaining in database.",
       "level": "warn"
