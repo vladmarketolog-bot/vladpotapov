@@ -4516,18 +4516,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-24T06:54:50.438Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-24T06:55:46.225Z",
-      "source": "System",
-      "message": "Added new topic: \"«Невидимая Обесценка: Как ИИ-агенты трансформируют человеческий капитал в „теневой актив“ и что это значит для CFO»\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-24T06:55:46.654Z",
       "source": "Telegram",
       "message": "Topic proposal \"«Невидимая Обесценка: Как ИИ-агенты трансформируют человеческий капитал в „теневой актив“ и что это значит для CFO»\" sent to admin",
@@ -7514,6 +7502,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-09-29T15:18:34.119Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-09-29T15:18:34.125Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
