@@ -4516,18 +4516,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-24T06:55:46.654Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"«Невидимая Обесценка: Как ИИ-агенты трансформируют человеческий капитал в „теневой актив“ и что это значит для CFO»\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-24T06:55:46.663Z",
-      "source": "System",
-      "message": "Added new topic: \"«Контент-инжиниринг для ‘Зеро-Сёрфа’: Как бренды перестраивают архитектуру знаний для доминирования в невидимых ИИ-интерфейсах»\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-24T06:55:46.799Z",
       "source": "Telegram",
       "message": "Topic proposal \"«Контент-инжиниринг для ‘Зеро-Сёрфа’: Как бренды перестраивают архитектуру знаний для доминирования в невидимых ИИ-интерфейсах»\" sent to admin",
@@ -7511,6 +7499,18 @@
     },
     {
       "timestamp": "2026-09-29T15:18:34.125Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
+    },
+    {
+      "timestamp": "2026-09-30T15:33:05.626Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-09-30T15:33:05.630Z",
       "source": "CLI-Drafting",
       "message": "No unused approved topics remaining in database.",
       "level": "warn"
