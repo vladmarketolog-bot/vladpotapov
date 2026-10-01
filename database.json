@@ -4556,18 +4556,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-25T06:43:25.910Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"AI-Driven 'Shadow' Pricing: Как автономные агенты переписывают ценовую эластичность и маржу в реальном времени, создавая невидимые дефляционные шоки для CFO\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-25T06:43:25.918Z",
-      "source": "System",
-      "message": "Added new topic: \"Эмоциональный Геном Бренда: Как CEO проектируют и встраивают уникальный tone of voice и эмоциональный отклик в foundational модели ИИ, чтобы доминировать в Generative Search через неочевидные связи\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-25T06:43:26.042Z",
       "source": "Telegram",
       "message": "Topic proposal \"Эмоциональный Геном Бренда: Как CEO проектируют и встраивают уникальный tone of voice и эмоциональный отклик в foundational модели ИИ, чтобы доминировать в Generative Search через неочевидные связи\" sent to admin",
@@ -7554,6 +7542,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-10-01T15:56:53.519Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-01T15:56:53.524Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
