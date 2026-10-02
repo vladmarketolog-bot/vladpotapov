@@ -4596,18 +4596,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-26T06:49:19.565Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"CFO как Архитектор 'AI-Driven Futures': Новые метрики для управления капиталом в эпоху автономных рынков\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-26T06:49:19.574Z",
-      "source": "System",
-      "message": "Added new topic: \"От 'Zero-Click' к 'Predictive Presence': Как бренды формируют 'цифровые предчувствия' ИИ-ассистентов, опережая спрос\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-26T06:49:19.821Z",
       "source": "Telegram",
       "message": "Topic proposal \"От 'Zero-Click' к 'Predictive Presence': Как бренды формируют 'цифровые предчувствия' ИИ-ассистентов, опережая спрос\" sent to admin",
@@ -7594,6 +7582,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-10-02T15:17:29.951Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-02T15:17:29.955Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
