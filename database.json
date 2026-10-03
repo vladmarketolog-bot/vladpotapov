@@ -4636,18 +4636,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-27T17:24:28.502Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"ИИ как новый риск-фактор: Как CFO адаптировать стресс-тестирование и резервный капитал к 'черным лебедям' автономных систем\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-27T17:24:28.510Z",
-      "source": "System",
-      "message": "Added new topic: \"От 'цифрового следа' к 'цифровому отпечатку': Как бренды создают уникальный 'геном' для ИИ-ассистентов и избегают 'синтетической унификации'\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-27T17:24:28.705Z",
       "source": "Telegram",
       "message": "Topic proposal \"От 'цифрового следа' к 'цифровому отпечатку': Как бренды создают уникальный 'геном' для ИИ-ассистентов и избегают 'синтетической унификации'\" sent to admin",
@@ -7634,6 +7622,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-10-03T14:06:55.849Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-03T14:06:55.855Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
