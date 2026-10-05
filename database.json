@@ -4716,18 +4716,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-29T12:20:14.044Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"«Алгоритмическая Монополия»: Как ИИ-агенты переписывают антимонопольное законодательство и создают новые барьеры для входа на рынок\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-29T12:20:14.053Z",
-      "source": "System",
-      "message": "Added new topic: \"«Когнитивный Суверенитет Бренда»: Как CEO проектируют 'Архитектуру Знания' для ИИ-ассистентов, формируя будущее своей индустрии\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-29T12:20:14.304Z",
       "source": "Telegram",
       "message": "Topic proposal \"«Когнитивный Суверенитет Бренда»: Как CEO проектируют 'Архитектуру Знания' для ИИ-ассистентов, формируя будущее своей индустрии\" sent to admin",
@@ -7714,6 +7702,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-10-05T17:46:25.801Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-05T17:46:25.806Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
