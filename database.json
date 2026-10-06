@@ -4716,18 +4716,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-29T12:20:14.304Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"«Когнитивный Суверенитет Бренда»: Как CEO проектируют 'Архитектуру Знания' для ИИ-ассистентов, формируя будущее своей индустрии\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-29T12:20:14.311Z",
-      "source": "System",
-      "message": "Added new topic: \"«Синдром Цифровой Зависимости»: Как гиперперсонализация AI-агентов может разрушить долгосрочную лояльность и этические границы бренда\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-29T12:20:14.524Z",
       "source": "Telegram",
       "message": "Topic proposal \"«Синдром Цифровой Зависимости»: Как гиперперсонализация AI-агентов может разрушить долгосрочную лояльность и этические границы бренда\" sent to admin",
@@ -7711,6 +7699,18 @@
     },
     {
       "timestamp": "2026-10-05T17:46:25.806Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
+    },
+    {
+      "timestamp": "2026-10-06T15:39:09.203Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-06T15:39:09.208Z",
       "source": "CLI-Drafting",
       "message": "No unused approved topics remaining in database.",
       "level": "warn"
