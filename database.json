@@ -4756,18 +4756,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-30T11:18:45.934Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"«Цифровая Онтология Бренда»: Как CEO формируют «фундаментальные модели» для ИИ-ассистентов, становясь не просто источником, а соавтором коллективного знания отрасли\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-30T11:18:45.943Z",
-      "source": "System",
-      "message": "Added new topic: \"«От MQL к AQL»: Как ИИ-агенты переписывают воронку продаж, создавая «Agent-Qualified Leads» и переопределяя LTV\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-30T11:18:46.078Z",
       "source": "Telegram",
       "message": "Topic proposal \"«От MQL к AQL»: Как ИИ-агенты переписывают воронку продаж, создавая «Agent-Qualified Leads» и переопределяя LTV\" sent to admin",
@@ -7754,6 +7742,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-10-07T16:02:34.100Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-07T16:02:34.105Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
