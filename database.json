@@ -4796,18 +4796,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-08-31T12:47:56.834Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Семантическая Энтропия Бренда: Как ИИ-ассистенты размывают уникальный смысл компании и как CEO вернуть контроль над нарративом\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-08-31T12:47:56.842Z",
-      "source": "System",
-      "message": "Added new topic: \"От Цифровой Витрины к Физической Эмпатии: Как AI-агенты трансформируют оффлайн-взаимодействия и точки продаж\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-08-31T12:47:57.013Z",
       "source": "Telegram",
       "message": "Topic proposal \"От Цифровой Витрины к Физической Эмпатии: Как AI-агенты трансформируют оффлайн-взаимодействия и точки продаж\" sent to admin",
@@ -7794,6 +7782,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-10-08T16:04:59.984Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-08T16:04:59.989Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
