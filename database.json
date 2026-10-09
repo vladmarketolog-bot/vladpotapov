@@ -4836,18 +4836,6 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-09-01T11:09:01.128Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Онтологический Суверенитет Отрасли: Как бренды становятся «Конституцией Знания» для ИИ, диктуя терминологию, связи и иерархии, чтобы предотвратить «семантическую эрозию» и доминировать в Generative Search\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-09-01T11:09:01.240Z",
-      "source": "System",
-      "message": "Added new topic: \"Этический Диссонанс AI-Эмпатии: Почему 'идеальные' автономные агенты разрушают глубину клиентских отношений, и как CEO стратегически внедряют 'человеческое трение' для сохранения долгосрочной LTV и аутентичности бренда\" (Status: pending)",
-      "level": "info"
-    },
-    {
       "timestamp": "2026-09-01T11:09:01.501Z",
       "source": "Telegram",
       "message": "Topic proposal \"Этический Диссонанс AI-Эмпатии: Почему 'идеальные' автономные агенты разрушают глубину клиентских отношений, и как CEO стратегически внедряют 'человеческое трение' для сохранения долгосрочной LTV и аутентичности бренда\" sent to admin",
@@ -7834,6 +7822,18 @@
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
       "level": "info"
+    },
+    {
+      "timestamp": "2026-10-09T15:46:56.965Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-09T15:46:56.970Z",
+      "source": "CLI-Drafting",
+      "message": "No unused approved topics remaining in database.",
+      "level": "warn"
     }
   ]
 }
