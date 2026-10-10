@@ -9,11 +9,23 @@ async function run() {
 
   try {
     const topics = db.getTopics();
-    const unusedApproved = topics.filter(t => t.status === 'approved' && !t.used);
+    let unusedApproved = topics.filter(t => t.status === 'approved' && !t.used);
 
     if (unusedApproved.length === 0) {
-      db.log('CLI-Drafting', 'No unused approved topics remaining in database.', 'warn');
-      console.log('⚠️ No unused approved topics to draft. Please approve some topics in database.json!');
+      const pending = topics.filter(t => (t.status === 'pending' || !t.status) && !t.used);
+      if (pending.length > 0) {
+        console.log(`Auto-approving ${Math.min(20, pending.length)} pending topics for autopilot...`);
+        for (const t of pending.slice(0, 20)) {
+          t.status = 'approved';
+        }
+        db.save();
+        unusedApproved = topics.filter(t => t.status === 'approved' && !t.used);
+      }
+    }
+
+    if (unusedApproved.length === 0) {
+      db.log('CLI-Drafting', 'No unused topics remaining in database.', 'warn');
+      console.log('⚠️ No unused topics to draft.');
       process.exit(0);
     }
 

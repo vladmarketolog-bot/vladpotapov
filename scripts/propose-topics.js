@@ -16,7 +16,7 @@ async function run() {
     console.log(`Successfully generated ${newTopics.length} new topics via Gemini.`);
 
     for (const t of newTopics) {
-      const added = db.addTopic(t); // saves as 'pending'
+      const added = db.addTopic({ ...t, status: 'approved' }); // saves as 'approved' automatically
       console.log(`Saving topic: "${added.title}"`);
       
       console.log('Sending topic card to admin chat in Telegram...');
