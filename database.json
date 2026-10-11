@@ -56,7 +56,7 @@
       "block": "Блок 3. Эволюция CRM",
       "title": "App Store Fatigue: Математика отказа от нативных приложений в пользу экосистемных Progressive Web Apps (PWAs)",
       "description": "Сухие цифры конверсии стоимости установки нативного приложения против запуска PWA в один тап без паролей из ИИ-выдачи с удержанием внутри CRM.",
-      "used": false,
+      "used": true,
       "status": "approved"
     },
     {
@@ -64,7 +64,7 @@
       "block": "Блок 4. Инфраструктурный суверенитет",
       "title": "Риски ИИ-зависимости: Почему Enterprise-сегмент выбирает суверенный R&D-контур вместо проприетарных SaaS-платформ",
       "description": "Опасность хранения коммерческих тайн на сторонних платформах. Преимущества развертывания сетей AI-агентов в собственном защищенном контуре (например, Yandex Cloud).",
-      "used": false,
+      "used": true,
       "status": "approved"
     },
     {
@@ -4938,57 +4938,31 @@
       "publishedAt": null,
       "createdAt": "2026-10-10T14:59:15.643Z",
       "updatedAt": "2026-10-10T14:59:15.643Z"
+    },
+    {
+      "id": "post_1791731886202",
+      "topicId": "topic_app_store_fatigue",
+      "title": "App Store Fatigue: Математика отказа от нативных приложений в пользу экосистемных Progressive Web Apps (PWAs)",
+      "content": "<b>App Store Fatigue: Математика отказа от нативных приложений в пользу экосистемных Progressive Web Apps (PWAs)</b>\n\nНативные мобильные приложения — артефакт уходящей эпохи, обремененный скрытыми издержками и низкой конверсией, которые топ-менеджмент часто игнорирует. Ваши миллионы, инвестированные в App Store, работают против вас, создавая <i>App Store Fatigue</i> у пользователей и размы",
+      "status": "draft",
+      "scheduledAt": null,
+      "publishedAt": null,
+      "createdAt": "2026-10-11T15:18:06.202Z",
+      "updatedAt": "2026-10-11T15:18:06.202Z"
+    },
+    {
+      "id": "post_1791731899602",
+      "topicId": "topic_ai_dependence",
+      "title": "Риски ИИ-зависимости: Почему Enterprise-сегмент выбирает суверенный R&D-контур вместо проприетарных SaaS-платформ",
+      "content": "<b>AI-Суверенитет: Инфраструктурный Контур как Щит Коммерческой Тайны</b>\n\nПривлекательность rapid prototyping и низкой Time-to-Market через проприетарные AI SaaS-платформы затуманивает критический риск: утрату контроля над вашей интеллектуальной собственностью. CEO и CTO часто недооценивают, что, отправляя коммерческие тайны и sensitive data на сторонние платформы для fine-tuning или inference",
+      "status": "draft",
+      "scheduledAt": null,
+      "publishedAt": null,
+      "createdAt": "2026-10-11T15:18:19.601Z",
+      "updatedAt": "2026-10-11T15:18:19.601Z"
     }
   ],
   "logs": [
-    {
-      "timestamp": "2026-09-03T10:45:01.128Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"«Мета-Познание ИИ»: Как CEO управляют 'знанием о знании' автономных систем и капитализируют 'интеллектуальную слепоту' конкурентов\" sent to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-09-03T10:45:01.132Z",
-      "source": "CLI-Propose",
-      "message": "Successfully generated and proposed 5 topics to admin",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-09-03T13:12:05.539Z",
-      "source": "CLI-Drafting",
-      "message": "Running daily approved topic drafting...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-09-03T13:12:05.544Z",
-      "source": "CLI-Drafting",
-      "message": "No unused approved topics remaining in database.",
-      "level": "warn"
-    },
-    {
-      "timestamp": "2026-09-04T10:45:21.735Z",
-      "source": "CLI-Propose",
-      "message": "Running daily topic proposal...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-09-04T10:45:21.739Z",
-      "source": "Gemini",
-      "message": "Generating 5 new expert topics...",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-09-04T10:49:19.275Z",
-      "source": "System",
-      "message": "Added new topic: \"Новая Эра Слияний и Поглощений: Как AI-нативные стратегии переписывают Due Diligence и оценку «невидимых» активов\" (Status: pending)",
-      "level": "info"
-    },
-    {
-      "timestamp": "2026-09-04T10:49:19.848Z",
-      "source": "Telegram",
-      "message": "Topic proposal \"Новая Эра Слияний и Поглощений: Как AI-нативные стратегии переписывают Due Diligence и оценку «невидимых» активов\" sent to admin",
-      "level": "info"
-    },
     {
       "timestamp": "2026-09-04T10:49:19.858Z",
       "source": "System",
@@ -7939,6 +7913,54 @@
       "timestamp": "2026-10-11T12:09:23.461Z",
       "source": "CLI-Propose",
       "message": "Successfully generated and proposed 5 topics to admin",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-11T15:17:52.502Z",
+      "source": "CLI-Drafting",
+      "message": "Running daily approved topic drafting...",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-11T15:17:52.510Z",
+      "source": "Gemini",
+      "message": "Initializing generation for: \"App Store Fatigue: Математика отказа от нативных приложений в пользу экосистемных Progressive Web Apps (PWAs)\" using gemini-2.5-flash",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-11T15:18:06.202Z",
+      "source": "System",
+      "message": "Created new post: \"App Store Fatigue: Математика отказа от нативных приложений в пользу экосистемных Progressive Web Apps (PWAs)\" (Status: draft)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-11T15:18:06.629Z",
+      "source": "Telegram",
+      "message": "Draft \"App Store Fatigue: Математика отказа от нативных приложений в пользу экосистемных Progressive Web Apps (PWAs)\" sent to admin for approval",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-11T15:18:06.634Z",
+      "source": "Gemini",
+      "message": "Initializing generation for: \"Риски ИИ-зависимости: Почему Enterprise-сегмент выбирает суверенный R&D-контур вместо проприетарных SaaS-платформ\" using gemini-2.5-flash",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-11T15:18:19.601Z",
+      "source": "System",
+      "message": "Created new post: \"Риски ИИ-зависимости: Почему Enterprise-сегмент выбирает суверенный R&D-контур вместо проприетарных SaaS-платформ\" (Status: draft)",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-11T15:18:19.762Z",
+      "source": "Telegram",
+      "message": "Draft \"Риски ИИ-зависимости: Почему Enterprise-сегмент выбирает суверенный R&D-контур вместо проприетарных SaaS-платформ\" sent to admin for approval",
+      "level": "info"
+    },
+    {
+      "timestamp": "2026-10-11T15:18:19.768Z",
+      "source": "CLI-Drafting",
+      "message": "Successfully auto-drafted and notified admin of 2 draft(s)",
       "level": "info"
     }
   ]
